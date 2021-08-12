@@ -109,7 +109,7 @@ class _LoginIslemleriState extends State<LoginIslemleri> {
 
   void _emailSifreKullaniciGirisYap() async {
     String _email = "g.onur.ozdemir@gmail.com";
-    String _password = "password2";
+    String _password = "deneme";
 
     try {
       if (_auth.currentUser == null) {
